@@ -1,22 +1,21 @@
 - name: IBM Datapower Add-on for Splunk
-  splunkbase: 
+  splunkbase: https://splunkbase.splunk.com/app/4662
 
 - name: IBM Secret Server Add-on for Splunk
-  splunkbase:
+  splunkbase: https://splunkbase.splunk.com/app/5029
 
 - name: Lenovo IMM Add-on for Splunk
-  splunkbase:
+  splunkbase: https://splunkbase.splunk.com/app/4703
 
 - name: PINsafe Add-on for Splunk
-  splunkbase:
+  splunkbase: https://splunkbase.splunk.com/app/4112
 
 - name: Aruba Networks Add-on for Splunk
-  splunkbase:
+  splunkbase: https://splunkbase.splunk.com/app/4668
 
 - name: Kaspersky Add-on for Splunk
-  splunkbase: 
+  splunkbase: https://splunkbase.splunk.com/app/4656
 
 - name: QNAP Add-on for Splunk
-  splunkbase:
+  splunkbase: https://splunkbase.splunk.com/app/4632
 
-  
