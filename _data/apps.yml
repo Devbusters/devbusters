@@ -1,21 +1,44 @@
 - name: IBM Datapower Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4662
+  details: TA-ibm_datapower
 
 - name: IBM Secret Server Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/5029
+  details: TA-ibm_secretserver
 
 - name: Lenovo IMM Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4703
+  details: TA-lenovo_imm
 
 - name: PINsafe Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4112
+  details: TA-pinsafe
 
 - name: Aruba Networks Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4668
+  details: TA-aruba_networks
 
 - name: Kaspersky Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4656
+  details: TA-kaspesrky
 
 - name: QNAP Add-on for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4632
+  details: TA-qnap
+
+- name: Aruba Networks App for Splunk
+  splunkbase: https://splunkbase.splunk.com/app/4664
+  details: aruba_networks_app
+
+- name: Kaspersky App for Splunk
+  splunkbase: https://splunkbase.splunk.com/app/4661
+  details: kaspersky_app
+
+- name: QNAP App for Splunk
+  splunkbase: https://splunkbase.splunk.com/app/4637
+  details: qnap_app
+
+- name: Via Verde App fro Splunk
+  splunkbase: https://splunkbase.splunk.com/app/4149
+  details: via_verde_app
 
