@@ -38,7 +38,7 @@
   splunkbase: https://splunkbase.splunk.com/app/4637
   details: qnap_app
 
-- name: Via Verde App fro Splunk
+- name: Via Verde App for Splunk
   splunkbase: https://splunkbase.splunk.com/app/4149
   details: via_verde_app
 
