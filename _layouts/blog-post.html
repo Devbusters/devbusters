@@ -41,7 +41,7 @@
                                 <!-- Post title-->
                                 <h1 class="fw-bolder mb-1">Welcome to Blog Post! {{ page.title }}</h1>
                                 <!-- Post meta content-->
-                                <div class="text-muted fst-italic mb-2">{{ page.date }}</div>
+                                <div class="text-muted fst-italic mb-2">{{ page.date | date_to_string }}</div>
                                 <!-- Post categories-->
                                 {% for tag in page.tags %}
                                 <a class="badge bg-secondary text-decoration-none link-light" href="#!">{{ tag }}</a>
