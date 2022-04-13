@@ -1,9 +1,9 @@
 ---
 layout: blog-post
-title:  "Splunk .conf22 schedule released"
-date:   2022-04-11 10:00:00 +0000
+title:  "Splunk .conf22 session catalog has arrived"
+date:   2022-04-06 10:00:00 +0000
 author: Diogo Silva
-tags: splunk apps data extractions
+tags: splunk conf22
 categories: splunk
 comments: true
 ---
