@@ -4,7 +4,7 @@ title:  "Bring CIMplicity to your data!"
 date:   2022-04-10 10:00:00 +0000
 author: Diogo Silva
 tags: splunk cim data extractions
-categories: splunk
+categories: blog
 comments: true
 ---
 In this post we'll be covering Splunk's Common Information Model, what is it, how can it be usefull to you, 
