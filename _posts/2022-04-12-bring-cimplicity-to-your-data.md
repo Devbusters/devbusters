@@ -2,6 +2,7 @@
 layout: blog-post
 title:  "Bring CIMplicity to your data!"
 date:   2022-04-12 10:00:00 +0000
+author: Diogo Silva
 tags: splunk cim data extractions
 categories: splunk
 ---
