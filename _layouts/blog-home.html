@@ -20,7 +20,7 @@
         <!-- Navigation -->
         {% include navigation.html %}
         <!-- Page Content-->
-        {% for post in site.posts limit:1 %}
+        <!-- {% for post in site.posts limit:1 %} -->
         <section class="py-5">
             <div class="container px-5">
                 <h1 class="fw-bolder fs-5 mb-4">Company Blog</h1>
@@ -30,10 +30,10 @@
                             <div class="col-lg-6 col-xl-5 py-lg-5">
                                 <div class="p-4 p-md-5">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <div class="h2 fw-bolder">{{ post.title }}</div>
+                                    <div class="h2 fw-bolder">{{ site.posts.last.title }}</div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus ab
                                         doloremque, qui doloribus ea officiis...</p>
-                                    <a class="stretched-link text-decoration-none" href="{{ post.url }}">
+                                    <a class="stretched-link text-decoration-none" href="{{ site.posts.last.url }}">
                                         Read more
                                         <i class="bi bi-arrow-right"></i>
                                     </a>
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </section>
-        {% endfor %}
+        <!-- {% endfor %} -->
         <section class="py-5 bg-light">
             <div class="container px-5">
                 <div class="row gx-5">
