@@ -28,7 +28,7 @@
                             <img class="img-fluid rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg"
                                 alt="..." />
                             <div class="ms-3">
-                                <div class="fw-bold">Valerie Luna</div>
+                                <div class="fw-bold">{{ page.author }}</div>
                                 <div class="text-muted">News, Business</div>
                             </div>
                         </div>
@@ -39,13 +39,12 @@
                             <!-- Post header-->
                             <header class="mb-4">
                                 <!-- Post title-->
-                                <h1 class="fw-bolder mb-1">Welcome to Blog Post! {{ page.title }}</h1>
+                                <h1 class="fw-bolder mb-1">{{ page.title }}</h1>
                                 <!-- Post meta content-->
                                 <div class="text-muted fst-italic mb-2">{{ page.date | date_to_string }}</div>
                                 <!-- Post categories-->
                                 {% for tag in page.tags %}
                                 <a class="badge bg-secondary text-decoration-none link-light" href="#!">{{ tag }}</a>
-                                <!-- <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a> -->>
                                 {% endfor %}
                             </header>
                             <!-- Preview image figure-->
