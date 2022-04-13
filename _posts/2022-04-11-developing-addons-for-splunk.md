@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title:  "Developing apps for Splunk"
-date:   2022-04-13 10:00:00 +0000
+date:   2022-04-11 10:00:00 +0000
 author: Diogo Silva
 tags: splunk apps data extractions
 categories: splunk
