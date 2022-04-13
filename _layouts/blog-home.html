@@ -29,7 +29,7 @@
                         <div class="row gx-0">
                             <div class="col-lg-6 col-xl-5 py-lg-5">
                                 <div class="p-4 p-md-5">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ site.posts.last.categories }}</div>
                                     <div class="h2 fw-bolder">{{ site.posts.last.title }}</div>
                                     <p>{{ site.posts.last.excerpt }}</p>
                                     <a class="stretched-link text-decoration-none" href="{{ site.posts.last.url }}">
@@ -53,28 +53,22 @@
                 <div class="row gx-5">
                     <div class="col-xl-8">
                         <h2 class="fw-bolder fs-5 mb-4">News</h2>
-                        <!-- News item-->
-                        <div class="mb-4">
-                            <!-- <div class="small text-muted">May 12, 2021</div> -->
-                            <div class="small text-muted">May 12, 2021</div>
+                        {% for post in site.categories.news %}
+                        <div class="mb-5">
+                            <div class="small text-muted">{{ post.date | date_to_string }}</div>
                             <a class="link-dark" href="#!">
-                                <h3>Start Bootstrap releases Bootstrap 5 updates for templates and themes</h3>
+                                <h3>{{ post.title }}</h3>
                             </a>
                         </div>
                         <!-- News item-->
+                        <!--
                         <div class="mb-5">
                             <div class="small text-muted">May 5, 2021</div>
                             <a class="link-dark" href="#!">
                                 <h3>Bootstrap 5 has officially landed</h3>
                             </a>
-                        </div>
-                        <!-- News item-->
-                        <div class="mb-5">
-                            <div class="small text-muted">Apr 21, 2021</div>
-                            <a class="link-dark" href="#!">
-                                <h3>This is another news article headline, but this one is a little bit longer</h3>
-                            </a>
-                        </div>
+                        </div> -->
+
                         <div class="text-end mb-5 mb-xl-0">
                             <a class="text-decoration-none" href="#!">
                                 More news
