@@ -30,7 +30,7 @@
                             <div class="col-lg-6 col-xl-5 py-lg-5">
                                 <div class="p-4 p-md-5">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ site.posts.latest.categories }}</div>
-                                    <div class="h2 fw-bolder">{{ site.posts.lastest.title }}</div>
+                                    <div class="h2 fw-bolder">{{ site.posts.latest.title }}</div>
                                     <p>{{ site.posts.latest.excerpt }}</p>
                                     <a class="stretched-link text-decoration-none" href="{{ site.posts.latest.url }}">
                                         Read more
@@ -56,7 +56,7 @@
                         {% for post in site.categories.news %}
                         <div class="mb-5">
                             <div class="small text-muted">{{ post.date | date_to_string }}</div>
-                            <a class="link-dark" href="#!">
+                            <a class="link-dark" href="{{ post.url }}">
                                 <h3>{{ post.title }}</h3>
                             </a>
                         </div>
