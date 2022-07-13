@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.4//EN
+N:Silva;Diogo;;;
+FN:Diogo Silva
+ORG:Homeostase;
+EMAIL;type=INTERNET;type=WORK;type=pref:diogo.silva@homeostase.pt
+TEL;type=CELL;type=VOICE;type=pref:+351963329690
+item1.URL;type=pref:https://www.homeostase.pt
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
